@@ -19,8 +19,8 @@ public class MenuUIHandler : MonoBehaviour
     void Start()
     {   
         uguiBestScore.text = $"Best Score - {bestPlayerName} : {bestPlayerScore}";
-        string path = Application.persistentDataPath + "/savefile.json";
-        Debug.Log(path);
+
+       
     }
 
     // Update is called once per frame
